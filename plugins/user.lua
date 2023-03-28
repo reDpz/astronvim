@@ -10,6 +10,8 @@ return {
   --   end,
   -- },
   'rebelot/kanagawa.nvim',
+  'folke/tokyonight.nvim',
+  'voidekh/kyotonight.vim',
   {
     'abecodes/tabout.nvim',
     config = function()
