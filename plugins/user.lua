@@ -12,6 +12,8 @@ return {
   'rebelot/kanagawa.nvim',
   'folke/tokyonight.nvim',
   'voidekh/kyotonight.vim',
+  'lervag/vimtex',
+  -- 'xuhdev/vim-latex-live-preview',
   {
     'abecodes/tabout.nvim',
     config = function()
