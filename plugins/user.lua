@@ -12,6 +12,7 @@ return {
   'rebelot/kanagawa.nvim',
   'folke/tokyonight.nvim',
   'voidekh/kyotonight.vim',
+  'morhetz/gruvbox',
   'lervag/vimtex',
   -- 'xuhdev/vim-latex-live-preview',
   {
