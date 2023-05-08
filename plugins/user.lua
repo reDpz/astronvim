@@ -240,11 +240,11 @@ let g:mkdp_theme = 'dark']])
     wants = { 'nvim-treesitter' }, -- or require if not used so far
     after = { 'nvim-cmp' }         -- if a completion plugin is using tabs load it before
   },
-  {
-    'anuvyklack/pretty-fold.nvim',
-    config = function()
-      require('pretty-fold').setup()
-    end
-  },
+  -- {
+  --   'anuvyklack/pretty-fold.nvim',
+  --   config = function()
+  --     require('pretty-fold').setup()
+  --   end
+  -- },
   'sainnhe/gruvbox-material',
 }
