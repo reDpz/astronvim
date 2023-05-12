@@ -23,8 +23,8 @@ return {
         options = {
           icons_enabled = true,
           theme = 'gruvbox',
-          component_separators = { left = '', right = '' },
-          section_separators = { left = '', right = '' },
+          component_separators = { left = '', right = '' },
+          section_separators = { left = '', right = '' },
           disabled_filetypes = {
             statusline = {},
             winbar = {},
@@ -237,8 +237,11 @@ let g:mkdp_theme = 'dark']])
         exclude = {} -- tabout will ignore these filetypes
       }
     end,
-    wants = { 'nvim-treesitter' }, -- or require if not used so far
-    after = { 'nvim-cmp' }         -- if a completion plugin is using tabs load it before
+    dependencies = {
+      "nvim-treesitter/nvim-treesitter",
+      "L3MON4D3/LuaSnip",
+      "hrsh7th/nvim-cmp",
+    },
   },
   -- {
   --   'anuvyklack/pretty-fold.nvim',
@@ -246,5 +249,9 @@ let g:mkdp_theme = 'dark']])
   --     require('pretty-fold').setup()
   --   end
   -- },
-  'sainnhe/gruvbox-material',
+  {
+    'vimwiki/vimwiki',
+    lazy = false
+    -- ft = { 'vimwiki' }
+  },
 }
