@@ -78,7 +78,7 @@ return {
   end,
   highlights = {
     gruvbox = {
-      StatusLine = { fg = "#ebdbb2", bg = "#504945" },
+      StatusLine = { fg = "#ebdbb2", bg = "" },
       LineNr = { fg = "#665c54", bg = "#3c3836", },
       Visual = { fg = "#282828", bg = "#d79921" }
     },
