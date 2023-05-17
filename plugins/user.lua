@@ -219,7 +219,7 @@ let g:mkdp_theme = 'dark']])
   -- },
   {
     'vimwiki/vimwiki',
-    -- lazy = false
-    ft = { "vimwiki" }
+    lazy = false
+    -- ft = { "wiki" }
   },
 }
