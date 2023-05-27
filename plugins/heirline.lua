@@ -8,7 +8,7 @@ return {
         disable_winbar_cb = function(args)
           return status.condition.buffer_matches({
             buftype = { "terminal", "prompt", "nofile", "help", "quickfix" },
-            filetype = { "NvimTree", "neo%-tree", "dashboard", "Outline", "aerial", "wiki", "text", "markdown" },
+            filetype = { "NvimTree", "neo%-tree", "dashboard", "Outline", "aerial", "wiki", "text", "markdown", "css"},
           }, args.buf)
         end,
       },
